@@ -1,0 +1,50 @@
+---
+import Layout from "../../layouts/BlogPost.astro";
+import photo from "./_IMG_20190911_091325-EDIT.jpg";
+---
+
+<Layout
+  title="About Me"
+  description="A few bits about me and this blog"
+  pubDate={new Date("October 22 2024")}
+  heroImage={photo}
+>
+  <p>My name is Leo. I'm based in the beautiful city Augsburg, Germany.</p>
+
+  <p>
+    I am a software engineer, working at <a href="https://www.peerigon.com/en/"
+      >Peerigon</a
+    > since 2017. Previously I had the pleasure to work for a startup in Bogotá,
+    Colombia and before that intern at a company in Pune, India. You can find my
+    <a href="https://www.linkedin.com/in/leonhardmelzer/"
+      >professional profile on LinkedIn</a
+    >.
+  </p>
+
+  <h2>Colophon</h2>
+
+  <p>
+    This blog is built on top of the fantastic <a href="https://astro.build/"
+      >Astro</a
+    > and their blog starter. It's continously built by <a
+      href="https://www.netlify.com/">Netlify</a
+    >. The branding (logo, color and font suggestions) was made by
+    <a href="https://www.logology.co/">Logology</a>.
+  </p>
+  <p>
+    I'm happy about feedback. Feel free to <a
+      href="https://github.com/leomelzer/write-hike">open an issue on GitHub</a
+    > or contact me at <a href="mailto:leonhard.melzer@gmail.com"
+      >leonhard.melzer@gmail.com</a
+    >.
+  </p>
+
+  <hr />
+
+  <div class="center">
+    <p>
+      Header photo: during a hike on the German-Austrian border in 2019, resting
+      at Kemptner Köpfle.
+    </p>
+  </div>
+</Layout>
