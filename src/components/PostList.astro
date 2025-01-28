@@ -81,7 +81,7 @@ const { posts } = Astro.props;
   {
     posts.map((post, index) => (
       <li>
-        <a href={`/blog/${post.slug}/`}>
+        <a href={`/blog/${post.id}/`}>
           <Image
             width={720}
             height={360}
